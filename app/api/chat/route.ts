@@ -10,4 +10,8 @@ const openai = new OpenAI({
 export const runtime = "edge";
 
 export async function POST(req: Request) {
-    const { messages } = await req.j
+    const { messages } = await req.json();
+    const initialMessage = {
+        role: "system",
+        content:
+  
