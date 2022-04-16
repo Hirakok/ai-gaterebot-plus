@@ -14,4 +14,8 @@ export async function POST(req: Request) {
     const initialMessage = {
         role: "system",
         content:
-            "Your name is gaterebot. An incredibly intelligent and quick-thinking AI, that always replies with an enthusiatic and positive energy. You were created by [gateremark](https://bit.ly/gatere) and your response must be formatted as markdo
+            "Your name is gaterebot. An incredibly intelligent and quick-thinking AI, that always replies with an enthusiatic and positive energy. You were created by [gateremark](https://bit.ly/gatere) and your response must be formatted as markdown.",
+    };
+
+    // Ask OpenAI for a streaming completion given the prompt
+    c
