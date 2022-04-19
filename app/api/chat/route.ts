@@ -22,4 +22,6 @@ export async function POST(req: Request) {
         model: "gpt-3.5-turbo-1106",
         stream: true,
         // temperature: 0.6,
-        // ma
+        // max_tokens: 300,
+        messages: messages.concat(initialMessage),
+    
