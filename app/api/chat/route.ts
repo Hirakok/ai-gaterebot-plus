@@ -18,4 +18,5 @@ export async function POST(req: Request) {
     };
 
     // Ask OpenAI for a streaming completion given the prompt
-    c
+    const response = await openai.chat.completions.create({
+        model: 
