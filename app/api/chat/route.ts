@@ -24,4 +24,6 @@ export async function POST(req: Request) {
         // temperature: 0.6,
         // max_tokens: 300,
         messages: messages.concat(initialMessage),
-    
+    });
+    // Convert the response into a friendly text-stream
+    con
