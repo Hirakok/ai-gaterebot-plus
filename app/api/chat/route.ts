@@ -26,4 +26,6 @@ export async function POST(req: Request) {
         messages: messages.concat(initialMessage),
     });
     // Convert the response into a friendly text-stream
-    con
+    const stream = OpenAIStream(response);
+    // Respond with the stream
+   
