@@ -6,4 +6,7 @@ import { IoSend } from "react-icons/io5";
 import { useChat } from "ai/react";
 import Message from "@/app/components/Message";
 import { useSession } from "next-auth/react";
-import Image from "next/
+import Image from "next/image";
+import { useState, useEffect, useRef } from "react";
+
+export default function Hom
