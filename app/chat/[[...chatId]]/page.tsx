@@ -9,4 +9,6 @@ import { useSession } from "next-auth/react";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
-export default function Hom
+export default function Home() {
+    const { data: session } = useSession();
+    const user = session?.us
