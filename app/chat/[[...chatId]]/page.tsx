@@ -11,4 +11,6 @@ import { useState, useEffect, useRef } from "react";
 
 export default function Home() {
     const { data: session } = useSession();
-    const user = session?.us
+    const user = session?.user;
+    const email = user?.email;
+    const bottomRef = useRef<HTMLDivElement>(n
