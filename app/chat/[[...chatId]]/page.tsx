@@ -13,4 +13,6 @@ export default function Home() {
     const { data: session } = useSession();
     const user = session?.user;
     const email = user?.email;
-    const bottomRef = useRef<HTMLDivElement>(n
+    const bottomRef = useRef<HTMLDivElement>(null);
+
+    const { messages, input, handleInputChange, handleSubmit, isLoading }
