@@ -15,4 +15,7 @@ export default function Home() {
     const email = user?.email;
     const bottomRef = useRef<HTMLDivElement>(null);
 
-    const { messages, input, handleInputChange, handleSubmit, isLoading }
+    const { messages, input, handleInputChange, handleSubmit, isLoading } =
+        useChat();
+    // console.log("Messages:", messages);
+    // const [prompt,
