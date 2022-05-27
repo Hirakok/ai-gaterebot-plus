@@ -20,4 +20,5 @@ export default function Home() {
     // console.log("Messages:", messages);
     // const [prompt, ai] = messages;
     // console.log("Prompt:", prompt?.content);
-    // me
+    // messages.map((m) => console.log("new content:", m.content));
+    // console.log("AI:", ai?.
