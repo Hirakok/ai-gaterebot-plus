@@ -18,4 +18,6 @@ export default function Home() {
     const { messages, input, handleInputChange, handleSubmit, isLoading } =
         useChat();
     // console.log("Messages:", messages);
-    // const [prompt,
+    // const [prompt, ai] = messages;
+    // console.log("Prompt:", prompt?.content);
+    // me
