@@ -23,4 +23,7 @@ export default function Home() {
     // messages.map((m) => console.log("new content:", m.content));
     // console.log("AI:", ai?.content);
     // const userData = prompt?.content + "\n" + ai?.content;
-   
+    // console.log("User Data:", userData);
+
+    useEffect(() => {
+        botto
