@@ -29,4 +29,8 @@ export default function Home() {
         bottomRef.current?.scrollIntoView({
             behavior: "smooth",
             block: "start",
-    
+        });
+    }, [messages]);
+
+    const mongoHandleSubmit = async () => {
+       
