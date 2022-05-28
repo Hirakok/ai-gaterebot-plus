@@ -26,4 +26,7 @@ export default function Home() {
     // console.log("User Data:", userData);
 
     useEffect(() => {
-        botto
+        bottomRef.current?.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+    
