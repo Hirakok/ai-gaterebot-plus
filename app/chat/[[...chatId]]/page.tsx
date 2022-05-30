@@ -38,4 +38,6 @@ export default function Home() {
             //     email: email,
             //     title: input,
             //     messages: messages,
-   
+            // });
+
+            const response = await fetch("/api/chat/createNewChat",
