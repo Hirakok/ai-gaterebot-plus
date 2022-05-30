@@ -33,4 +33,6 @@ export default function Home() {
     }, [messages]);
 
     const mongoHandleSubmit = async () => {
-       
+        try {
+            // console.log("Sending data:", {
+            //
