@@ -40,4 +40,7 @@ export default function Home() {
             //     messages: messages,
             // });
 
-            const response = await fetch("/api/chat/createNewChat",
+            const response = await fetch("/api/chat/createNewChat", {
+                method: "POST",
+                headers: {
+               
