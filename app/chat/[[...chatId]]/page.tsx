@@ -47,4 +47,7 @@ export default function Home() {
                 },
                 body: JSON.stringify({
                     email: email,
-                    
+                    title: input,
+                    messages: messages,
+                }),
+       
