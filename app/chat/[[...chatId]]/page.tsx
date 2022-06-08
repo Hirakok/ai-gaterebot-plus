@@ -43,4 +43,6 @@ export default function Home() {
             const response = await fetch("/api/chat/createNewChat", {
                 method: "POST",
                 headers: {
-               
+                    "Content-Type": "application/json",
+                },
+                body: JSO
