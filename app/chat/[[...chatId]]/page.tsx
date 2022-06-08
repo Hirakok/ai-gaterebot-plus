@@ -50,4 +50,7 @@ export default function Home() {
                     title: input,
                     messages: messages,
                 }),
-       
+            });
+
+            const json = await response.json();
+            // conso
