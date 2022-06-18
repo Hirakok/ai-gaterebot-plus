@@ -53,4 +53,6 @@ export default function Home() {
             });
 
             const json = await response.json();
-            // conso
+            // console.log("Response:", json);
+        } catch (error) {
+            console.error("Error submitting
