@@ -55,4 +55,9 @@ export default function Home() {
             const json = await response.json();
             // console.log("Response:", json);
         } catch (error) {
-            console.error("Error submitting
+            console.error("Error submitting the chat:", error);
+        }
+    };
+
+    // setTimeout(() => {
+    //     mongoHandle
