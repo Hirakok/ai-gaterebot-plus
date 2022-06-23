@@ -64,4 +64,5 @@ export default function Home() {
     // }, 10000);
     // setTimeout(mongoHandleSubmit, 10000);
 
-    const hand
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+        if (
