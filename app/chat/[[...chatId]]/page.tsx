@@ -71,4 +71,8 @@ export default function Home() {
             // Submit the form
             // handleSubmit(syntheticEvent);
             finalSubmit(e);
-     
+        }
+    };
+    const finalSubmit = (e: any) => {
+        e.preventDefault();
+       
