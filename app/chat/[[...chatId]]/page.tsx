@@ -67,4 +67,5 @@ export default function Home() {
     const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
         if (e.key === "Enter") {
             e.preventDefault();
-            const syntheti
+            const syntheticEvent = e as unknown as FormEvent<HTMLFormElement>;
+            // Submit th
