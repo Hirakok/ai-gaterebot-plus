@@ -68,4 +68,7 @@ export default function Home() {
         if (e.key === "Enter") {
             e.preventDefault();
             const syntheticEvent = e as unknown as FormEvent<HTMLFormElement>;
-            // Submit th
+            // Submit the form
+            // handleSubmit(syntheticEvent);
+            finalSubmit(e);
+     
