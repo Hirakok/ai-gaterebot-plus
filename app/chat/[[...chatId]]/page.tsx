@@ -65,4 +65,6 @@ export default function Home() {
     // setTimeout(mongoHandleSubmit, 10000);
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-        if (
+        if (e.key === "Enter") {
+            e.preventDefault();
+            const syntheti
