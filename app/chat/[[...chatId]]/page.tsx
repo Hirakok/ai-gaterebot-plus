@@ -75,4 +75,7 @@ export default function Home() {
     };
     const finalSubmit = (e: any) => {
         e.preventDefault();
-       
+        handleSubmit(e);
+        mongoHandleSubmit();
+    };
+    // console.log(messages)
