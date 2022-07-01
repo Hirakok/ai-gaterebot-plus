@@ -78,4 +78,6 @@ export default function Home() {
         handleSubmit(e);
         mongoHandleSubmit();
     };
-    // console.log(messages)
+    // console.log(messages);
+    // console.log("Messages:", messages[0]?.content);
+    // console.log("Inpu
