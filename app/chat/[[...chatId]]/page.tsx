@@ -80,4 +80,10 @@ export default function Home() {
     };
     // console.log(messages);
     // console.log("Messages:", messages[0]?.content);
-    // console.log("Inpu
+    // console.log("Input:", input);
+
+    return (
+        <>
+            <title>New Chat</title>
+
+            <div c
