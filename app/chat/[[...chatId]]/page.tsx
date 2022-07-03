@@ -88,4 +88,5 @@ export default function Home() {
 
             <div className="flex h-screen">
                 <ChatSidebar />
-                <div classNa
+                <div className="bg-[#343541] flex flex-1 flex-col overflow-hidden">
+                    {!messages.length && !i
