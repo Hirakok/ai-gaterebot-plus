@@ -86,4 +86,6 @@ export default function Home() {
         <>
             <title>New Chat</title>
 
-            <div c
+            <div className="flex h-screen">
+                <ChatSidebar />
+                <div classNa
