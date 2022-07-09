@@ -98,4 +98,5 @@ export default function Home() {
                                 height={300}
                                 alt="gaterebot logo"
                                 className="w-1/2"
-               
+                            />
+                            <h1 className="text-4xl font-bold text-
