@@ -96,4 +96,6 @@ export default function Home() {
                                 priority={true}
                                 width={300}
                                 height={300}
-                                alt="gatereb
+                                alt="gaterebot logo"
+                                className="w-1/2"
+               
