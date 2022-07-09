@@ -95,4 +95,5 @@ export default function Home() {
                                 src="https://res.cloudinary.com/dvuazircp/image/upload/v1699262306/new_portfolio/gaterebotorig_ymxuzb.webp"
                                 priority={true}
                                 width={300}
-       
+                                height={300}
+                                alt="gatereb
