@@ -99,4 +99,6 @@ export default function Home() {
                                 alt="gaterebot logo"
                                 className="w-1/2"
                             />
-                            <h1 className="text-4xl font-bold text-
+                            <h1 className="text-4xl font-bold text-white/50 mt-2">
+                                Ask me a question
+                  
