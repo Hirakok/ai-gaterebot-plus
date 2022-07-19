@@ -101,4 +101,7 @@ export default function Home() {
                             />
                             <h1 className="text-4xl font-bold text-white/50 mt-2">
                                 Ask me a question
-                  
+                            </h1>
+                        </div>
+                    )}
+                    <d
