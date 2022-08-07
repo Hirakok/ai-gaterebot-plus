@@ -106,4 +106,6 @@ export default function Home() {
                     )}
                     <div className=" flex-1 text-[#ececf1] lg:px-28 md:px-8 pb-10 overflow-y-scroll">
                         {messages.map((m) => (
-                            <Message key=
+                            <Message key={m.id} {...m} isLoading={isLoading} />
+                        ))}
+               
