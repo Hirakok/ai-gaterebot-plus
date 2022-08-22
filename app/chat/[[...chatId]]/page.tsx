@@ -108,4 +108,7 @@ export default function Home() {
                         {messages.map((m) => (
                             <Message key={m.id} {...m} isLoading={isLoading} />
                         ))}
-               
+                        <div ref={bottomRef}></div>
+                    </div>
+
+     
