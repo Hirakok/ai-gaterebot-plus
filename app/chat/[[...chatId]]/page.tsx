@@ -114,4 +114,6 @@ export default function Home() {
                     <form
                         action=""
                         className=" bg-gradient-to-t from-[#343541] pb-10 from-[70%] px-10"
-             
+                        onSubmit={handleSubmit}
+                    >
+                     
