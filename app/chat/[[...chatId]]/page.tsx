@@ -117,4 +117,5 @@ export default function Home() {
                         onSubmit={handleSubmit}
                     >
                         <fieldset
-                            className=" relative flex justify-cent
+                            className=" relative flex justify-center items-center gap-2 "
+                            disabled={isLoading}
