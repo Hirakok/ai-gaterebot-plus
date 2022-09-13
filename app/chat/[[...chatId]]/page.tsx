@@ -121,4 +121,5 @@ export default function Home() {
                             disabled={isLoading}
                         >
                             <textarea
-                      
+                                value={input}
+                                onChange={handleInputCh
