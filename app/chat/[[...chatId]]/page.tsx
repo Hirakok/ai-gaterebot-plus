@@ -122,4 +122,6 @@ export default function Home() {
                         >
                             <textarea
                                 value={input}
-                                onChange={handleInputCh
+                                onChange={handleInputChange}
+                                onKeyDown={handleKeyDown}
+  
