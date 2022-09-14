@@ -127,3 +127,5 @@ export default function Home() {
                                 rows={1}
                                 placeholder={
                                     isLoading ? "" : "Send a message..."
+                                }
+                                className=" bg-[#4041
