@@ -125,4 +125,5 @@ export default function Home() {
                                 onChange={handleInputChange}
                                 onKeyDown={handleKeyDown}
                                 rows={1}
-                                placehol
+                                placeholder={
+                                    isLoading ? "" : "Send a message..."
