@@ -124,4 +124,5 @@ export default function Home() {
                                 value={input}
                                 onChange={handleInputChange}
                                 onKeyDown={handleKeyDown}
-  
+                                rows={1}
+                                placehol
