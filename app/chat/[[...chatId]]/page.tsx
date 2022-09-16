@@ -128,4 +128,6 @@ export default function Home() {
                                 placeholder={
                                     isLoading ? "" : "Send a message..."
                                 }
-                                className=" bg-[#40414F] md:w-[75%] w-[100%] resize-none rounded-lg text-[#ffffff] p-4 foc
+                                className=" bg-[#40414F] md:w-[75%] w-[100%] resize-none rounded-lg text-[#ffffff] p-4 focus:outline-none overflow-y-hidden"
+                            />
+     
