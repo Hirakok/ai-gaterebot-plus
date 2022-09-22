@@ -132,4 +132,5 @@ export default function Home() {
                             />
                             <button
                                 type="submit"
-                                className={`absolute md:right-[15%] right-[5%] focus:outli
+                                className={`absolute md:right-[15%] right-[5%] focus:outline-none p-[6px] rounded transition ease-in-out duration-150 ${
+ 
