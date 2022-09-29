@@ -134,4 +134,6 @@ export default function Home() {
                                 type="submit"
                                 className={`absolute md:right-[15%] right-[5%] focus:outline-none p-[6px] rounded transition ease-in-out duration-150 ${
                                     !isLoading &&
-                                    input !
+                                    input !== "" &&
+                                    "  text-[#ffffff] bg-[#19C37D] "
+           
