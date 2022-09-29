@@ -136,4 +136,7 @@ export default function Home() {
                                     !isLoading &&
                                     input !== "" &&
                                     "  text-[#ffffff] bg-[#19C37D] "
-           
+                                }`}
+                            >
+                                <IoSend
+ 
