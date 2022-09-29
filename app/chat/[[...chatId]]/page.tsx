@@ -139,4 +139,4 @@ export default function Home() {
                                 }`}
                             >
                                 <IoSend
- 
+                                    className={`text-xl transition ease-in-out duration-150 ${
