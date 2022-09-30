@@ -142,4 +142,6 @@ export default function Home() {
                                     className={`text-xl transition ease-in-out duration-150 ${
                                         !isLoading && input !== ""
                                             ? "text-[#ffffff] "
-                                          
+                                            : "text-[#99999990]"
+                                    } `}
+                       
