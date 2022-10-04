@@ -149,4 +149,7 @@ export default function Home() {
                         </fieldset>
                     </form>
                 </div>
-        
+            </div>
+        </>
+    );
+}
