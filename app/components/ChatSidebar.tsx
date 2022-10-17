@@ -9,4 +9,6 @@ import { AiFillMessage } from "react-icons/ai";
 import classNames from "classnames";
 // import { IoChevronBackSharp } from "react-icons/io5";
 
-const ChatSidebar = 
+const ChatSidebar = () => {
+    const { data: session } = useSession();
+    const [chatList, setChat
