@@ -6,4 +6,7 @@ import { LuLogOut } from "react-icons/lu";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { AiFillMessage } from "react-icons/ai";
-import classNames from "classnames"
+import classNames from "classnames";
+// import { IoChevronBackSharp } from "react-icons/io5";
+
+const ChatSidebar = 
