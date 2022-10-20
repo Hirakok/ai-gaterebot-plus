@@ -15,4 +15,8 @@ const ChatSidebar = () => {
     const [openSidebar, setOpenSidebar] = useState(true);
     const [filteredData, setFilteredData] = useState([])
 
-    const user = se
+    const user = session?.user;
+    const email = user?.email;
+    // console.log("email: ", email);
+
+    // cons
