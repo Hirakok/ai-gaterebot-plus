@@ -11,4 +11,6 @@ import classNames from "classnames";
 
 const ChatSidebar = () => {
     const { data: session } = useSession();
-    const [chatList, setChat
+    const [chatList, setChatList] = useState([]);
+    const [openSidebar, setOpenSidebar] = useState(true);
+    const
