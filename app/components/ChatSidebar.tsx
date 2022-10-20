@@ -13,4 +13,6 @@ const ChatSidebar = () => {
     const { data: session } = useSession();
     const [chatList, setChatList] = useState([]);
     const [openSidebar, setOpenSidebar] = useState(true);
-    const
+    const [filteredData, setFilteredData] = useState([])
+
+    const user = se
