@@ -19,4 +19,5 @@ const ChatSidebar = () => {
     const email = user?.email;
     // console.log("email: ", email);
 
-    // cons
+    // const params = new URLSearchParams({ email: email ?? '' });
+    // console.log("params")
