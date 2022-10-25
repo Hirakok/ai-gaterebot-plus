@@ -21,3 +21,7 @@ const ChatSidebar = () => {
 
     // const params = new URLSearchParams({ email: email ?? '' });
     // console.log("params")
+
+    useEffect(() => {
+        const getChats = async () => {
+      
