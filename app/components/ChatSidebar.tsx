@@ -25,4 +25,6 @@ const ChatSidebar = () => {
     useEffect(() => {
         const getChats = async () => {
             try {
-                const response = await fetch(`/api/chat/getChats
+                const response = await fetch(`/api/chat/getChats`, {
+                    method: "GET",
+                    headers: {
