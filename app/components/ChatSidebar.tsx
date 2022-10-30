@@ -28,3 +28,6 @@ const ChatSidebar = () => {
                 const response = await fetch(`/api/chat/getChats`, {
                     method: "GET",
                     headers: {
+                        "Content-Type": "application/json",
+                    },
+  
