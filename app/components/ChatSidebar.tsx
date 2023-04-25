@@ -30,4 +30,7 @@ const ChatSidebar = () => {
                     headers: {
                         "Content-Type": "application/json",
                     },
-  
+                });
+
+                const json = await response.json();
+   
