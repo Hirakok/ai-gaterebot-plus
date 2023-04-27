@@ -36,4 +36,9 @@ const ChatSidebar = () => {
                 // console.log("Response:", json);
                 setChatList(json?.chats);
             } catch (error) {
-                console.error("Error g
+                console.error("Error getting chats:", error);
+            }
+        };
+
+        getChats();
+    }
