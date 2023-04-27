@@ -41,4 +41,7 @@ const ChatSidebar = () => {
         };
 
         getChats();
-    }
+    }, [email]);
+    // console.log("chatList", chatList);
+
+    useEffect(()=>{
