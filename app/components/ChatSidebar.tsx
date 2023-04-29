@@ -49,4 +49,8 @@ const ChatSidebar = () => {
        setFilteredData(filteredData);
     }, [chatList])
 
-    // consol
+    // console.log(filteredData)
+
+    return (
+        <div
+            className={class
