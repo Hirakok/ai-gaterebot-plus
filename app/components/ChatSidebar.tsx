@@ -58,4 +58,7 @@ const ChatSidebar = () => {
                 {
                     "translate-x-0": openSidebar,
                     "-translate-x-full": !openSidebar,
-             
+                }
+            )}
+        >
+            <div className="flex items-center re
