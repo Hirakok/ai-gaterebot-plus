@@ -64,4 +64,4 @@ const ChatSidebar = () => {
             <div className="flex items-center relative">
                 <Link
                     href="/chat"
-          
+                    className="p-3 bg-[#40414F] flex flex-1 gap-2 items-center hover:bg-[#00
