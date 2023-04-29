@@ -45,3 +45,5 @@ const ChatSidebar = () => {
     // console.log("chatList", chatList);
 
     useEffect(()=>{
+       const filteredData = chatList.filter((chat:any)=> chat.email == email)
+ 
