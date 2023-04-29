@@ -54,4 +54,6 @@ const ChatSidebar = () => {
     return (
         <div
             className={classNames(
-                " bg-[#202123] text-[#ffffff] md:flex fl
+                " bg-[#202123] text-[#ffffff] md:flex flex-col px-5 overflow-hidden w-[260px] hidden ",
+                {
+                 
