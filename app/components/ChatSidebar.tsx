@@ -61,4 +61,7 @@ const ChatSidebar = () => {
                 }
             )}
         >
-            <div className="flex items-center re
+            <div className="flex items-center relative">
+                <Link
+                    href="/chat"
+          
