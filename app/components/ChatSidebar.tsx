@@ -56,4 +56,6 @@ const ChatSidebar = () => {
             className={classNames(
                 " bg-[#202123] text-[#ffffff] md:flex flex-col px-5 overflow-hidden w-[260px] hidden ",
                 {
-                 
+                    "translate-x-0": openSidebar,
+                    "-translate-x-full": !openSidebar,
+             
