@@ -70,4 +70,6 @@ const ChatSidebar = () => {
                     <Image
                         src="https://res.cloudinary.com/dvuazircp/image/upload/v1699262306/new_portfolio/gaterebotorig_ymxuzb.webp"
                         priority={true}
-         
+                        width={30}
+                        height={30}
+                  
