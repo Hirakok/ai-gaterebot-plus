@@ -72,4 +72,5 @@ const ChatSidebar = () => {
                         priority={true}
                         width={30}
                         height={30}
-                  
+                        alt="gaterebot Image"
+                        className="rounded inl
