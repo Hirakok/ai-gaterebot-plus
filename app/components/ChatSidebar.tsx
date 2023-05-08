@@ -68,4 +68,6 @@ const ChatSidebar = () => {
                 >
                     {" "}
                     <Image
-                        src="https://res.cloudinary.com/dvuazircp/image/upload/v1699262306/new_portfolio/gaterebotorig_ymxu
+                        src="https://res.cloudinary.com/dvuazircp/image/upload/v1699262306/new_portfolio/gaterebotorig_ymxuzb.webp"
+                        priority={true}
+         
