@@ -73,4 +73,7 @@ const ChatSidebar = () => {
                         width={30}
                         height={30}
                         alt="gaterebot Image"
-                        className="rounded inl
+                        className="rounded inline"
+                    />
+                    New Chat{" "}
+    
