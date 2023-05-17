@@ -80,4 +80,7 @@ const ChatSidebar = () => {
                 {/* <IoChevronBackSharp
                     className=" text-2xl font-bold animate-pulse cursor-pointer absolute -right-5"
                     onClick={() =>
-                        setOpenSidebar((openSideba
+                        setOpenSidebar((openSidebar) => !openSidebar)
+                    }
+                /> */}
+        
