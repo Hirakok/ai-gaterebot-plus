@@ -86,4 +86,5 @@ const ChatSidebar = () => {
             </div>
 
             <div className="flex-1 overflow-y-scroll">
-                {filteredData.map((
+                {filteredData.map((chat: any) => (
+                    <Link key={chat._id} href={`/chat/${cha
