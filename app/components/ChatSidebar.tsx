@@ -89,4 +89,5 @@ const ChatSidebar = () => {
                 {filteredData.map((chat: any) => (
                     <Link key={chat._id} href={`/chat/${chat._id}`}>
                         <div
-                            title
+                            title={chat.title}
+                            className="flex items-center g
