@@ -83,4 +83,7 @@ const ChatSidebar = () => {
                         setOpenSidebar((openSidebar) => !openSidebar)
                     }
                 /> */}
-        
+            </div>
+
+            <div className="flex-1 overflow-y-scroll">
+                {filteredData.map((
