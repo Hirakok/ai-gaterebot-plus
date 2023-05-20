@@ -93,4 +93,4 @@ const ChatSidebar = () => {
                             className="flex items-center gap-2 py-2 px-3 hover:bg-[#000000] rounded-md"
                         >
                             <AiFillMessage className="text-xl" />
-    
+                            <span className="flex-1 overflow-hidden text-ell
