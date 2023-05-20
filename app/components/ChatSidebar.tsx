@@ -90,4 +90,5 @@ const ChatSidebar = () => {
                     <Link key={chat._id} href={`/chat/${chat._id}`}>
                         <div
                             title={chat.title}
-                            className="flex items-center g
+                            className="flex items-center gap-2 py-2 px-3 hover:bg-[#000000] rounded-md"
+                    
