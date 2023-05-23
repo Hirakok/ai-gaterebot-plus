@@ -97,4 +97,8 @@ const ChatSidebar = () => {
                                 {chat.title}
                             </span>
                         </div>
-           
+                    </Link>
+                ))}
+            </div>
+
+            <button
