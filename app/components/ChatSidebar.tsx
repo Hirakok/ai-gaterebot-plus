@@ -95,4 +95,6 @@ const ChatSidebar = () => {
                             <AiFillMessage className="text-xl" />
                             <span className="flex-1 overflow-hidden text-ellipsis whitespace-nowrap">
                                 {chat.title}
-         
+                            </span>
+                        </div>
+           
