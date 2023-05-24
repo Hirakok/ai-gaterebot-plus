@@ -102,4 +102,7 @@ const ChatSidebar = () => {
             </div>
 
             <button
-                className="flex items-center gap-5 p-2 hover:bg-[#000000] bg-[#40414
+                className="flex items-center gap-5 p-2 hover:bg-[#000000] bg-[#40414F] rounded-md my-3"
+                onClick={() => signOut()}
+            >
+              
