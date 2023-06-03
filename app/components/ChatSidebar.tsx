@@ -109,4 +109,6 @@ const ChatSidebar = () => {
                     src={session?.user?.image as string}
                     priority={true}
                     width={40}
-                    height={40
+                    height={40}
+                    alt="Profile Image"
+                    className="ro
