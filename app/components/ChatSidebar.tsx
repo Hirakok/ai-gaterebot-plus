@@ -105,4 +105,6 @@ const ChatSidebar = () => {
                 className="flex items-center gap-5 p-2 hover:bg-[#000000] bg-[#40414F] rounded-md my-3"
                 onClick={() => signOut()}
             >
-              
+                <Image
+                    src={session?.user?.image as string}
+                 
