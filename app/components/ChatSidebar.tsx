@@ -111,4 +111,6 @@ const ChatSidebar = () => {
                     width={40}
                     height={40}
                     alt="Profile Image"
-                    className="ro
+                    className="rounded-full inline"
+                />
+                <div className="flex ite
