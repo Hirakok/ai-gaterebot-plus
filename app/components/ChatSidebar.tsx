@@ -113,4 +113,6 @@ const ChatSidebar = () => {
                     alt="Profile Image"
                     className="rounded-full inline"
                 />
-                <div className="flex ite
+                <div className="flex items-center gap-2">
+                    <span>Logout</span>
+                   
