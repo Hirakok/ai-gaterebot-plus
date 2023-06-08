@@ -115,4 +115,7 @@ const ChatSidebar = () => {
                 />
                 <div className="flex items-center gap-2">
                     <span>Logout</span>
-                   
+                    <LuLogOut />
+                </div>
+            </button>
+        </div
