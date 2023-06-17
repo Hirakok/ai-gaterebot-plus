@@ -11,3 +11,5 @@ interface MessageProps {
     isLoading: boolean;
 }
 
+const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
+   
