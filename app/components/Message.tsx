@@ -15,4 +15,7 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
     const { data: session } = useSession();
     const email = session?.user?.email;
 
- 
+    return (
+        <>
+            {role === "user" ? (
+                <div className="p-4 
