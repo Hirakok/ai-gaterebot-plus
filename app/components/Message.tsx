@@ -5,4 +5,9 @@ import Image from "next/image";
 import Markdown from "react-markdown";
 import rehypeHighlight from "rehype-highlight";
 
-interface 
+interface MessageProps {
+    role: string;
+    content: string;
+    isLoading: boolean;
+}
+
