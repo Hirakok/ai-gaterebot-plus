@@ -118,4 +118,8 @@ const ChatSidebar = () => {
                     <LuLogOut />
                 </div>
             </button>
-        </div
+        </div>
+    );
+};
+
+export default ChatSidebar;
