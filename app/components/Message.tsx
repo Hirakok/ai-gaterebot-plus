@@ -18,4 +18,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
     return (
         <>
             {role === "user" ? (
-                <div className="p-4 
+                <div className="p-4 flex gap-5 items-start">
+                    <Image
+                  
