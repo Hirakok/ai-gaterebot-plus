@@ -20,4 +20,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
             {role === "user" ? (
                 <div className="p-4 flex gap-5 items-start">
                     <Image
-                  
+                        src={session?.user?.image as string}
+                        priority={true}
+       
