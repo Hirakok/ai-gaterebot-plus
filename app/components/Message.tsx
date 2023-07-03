@@ -22,4 +22,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                     <Image
                         src={session?.user?.image as string}
                         priority={true}
-       
+                        width={40}
+                        height={40}
+                   
