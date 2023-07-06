@@ -24,4 +24,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                         priority={true}
                         width={40}
                         height={40}
-                   
+                        alt="User:"
+                        className="rounded inline"
+            
