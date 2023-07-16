@@ -33,4 +33,4 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
             ) : (
                 <div className="bg-[#444654] h-fit p-4 flex gap-5 items-start">
                     <Image
-                      
+                        src="https://res.cloudinary.com/dvuazircp/image/upload/v1699262
