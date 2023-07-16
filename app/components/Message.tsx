@@ -26,4 +26,8 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                         height={40}
                         alt="User:"
                         className="rounded inline"
-            
+                    />
+
+                    <div className="pt-1">{content}</div>
+                </div>
+  
