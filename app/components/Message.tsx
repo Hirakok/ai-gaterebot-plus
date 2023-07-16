@@ -31,4 +31,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                     <div className="pt-1">{content}</div>
                 </div>
             ) : (
-                <div className="bg-[#444654] h-fit p-4 flex ga
+                <div className="bg-[#444654] h-fit p-4 flex gap-5 items-start">
+                    <Image
+                      
