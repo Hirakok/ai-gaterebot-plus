@@ -38,4 +38,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                         width={40}
                         height={40}
                         alt="gaterebot: "
-                        cla
+                        className="rounded inline"
+                    />
+                    <div clas
