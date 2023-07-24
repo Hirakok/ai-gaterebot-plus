@@ -36,4 +36,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                         src="https://res.cloudinary.com/dvuazircp/image/upload/v1699262306/new_portfolio/gaterebotorig_ymxuzb.webp"
                         priority={true}
                         width={40}
-                        height={
+                        height={40}
+                        alt="gaterebot: "
+                        cla
