@@ -40,4 +40,5 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                         alt="gaterebot: "
                         className="rounded inline"
                     />
-                    <div clas
+                    <div className="pt-1 text-[#d1d5db] prose prose-invert rounded overflow-x-hidden">
+         
