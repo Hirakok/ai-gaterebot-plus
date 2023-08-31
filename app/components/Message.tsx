@@ -43,4 +43,5 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                     <div className="pt-1 text-[#d1d5db] prose prose-invert rounded overflow-x-hidden">
                         {/* {isLoading ? (
                             <div className="animate-pulse flex gap-1">
-                                <div className="h-3 bg-[#d1d5db] ro
+                                <div className="h-3 bg-[#d1d5db] rounded-full w-3"></div>
+                                <div className="h-3 bg-[#d1d5db] 
