@@ -45,4 +45,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                             <div className="animate-pulse flex gap-1">
                                 <div className="h-3 bg-[#d1d5db] rounded-full w-3"></div>
                                 <div className="h-3 bg-[#d1d5db] rounded-full w-3"></div>
-                                <div className="h-3 bg-[#
+                                <div className="h-3 bg-[#d1d5db] rounded-full w-3"></div>
+                            </div>
+                        ) :
