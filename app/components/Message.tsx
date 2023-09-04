@@ -47,4 +47,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                                 <div className="h-3 bg-[#d1d5db] rounded-full w-3"></div>
                                 <div className="h-3 bg-[#d1d5db] rounded-full w-3"></div>
                             </div>
-                        ) :
+                        ) : ( */}
+                        <Markdown rehypePlugins={[rehypeHighlight]}>
+                 
