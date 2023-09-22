@@ -49,4 +49,7 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                             </div>
                         ) : ( */}
                         <Markdown rehypePlugins={[rehypeHighlight]}>
-                 
+                            {content}
+                        </Markdown>
+
+                    
