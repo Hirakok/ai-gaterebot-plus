@@ -55,3 +55,9 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                         {/* )} */}
                     </div>
                 </div>
+            )}
+        </>
+    );
+};
+
+export default Message;
