@@ -52,4 +52,6 @@ const Message: React.FC<MessageProps> = ({ role, content, isLoading }) => {
                             {content}
                         </Markdown>
 
-                    
+                        {/* )} */}
+                    </div>
+                </div>
