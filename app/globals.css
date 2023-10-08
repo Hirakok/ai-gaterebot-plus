@@ -8,4 +8,9 @@
     width: 8px;
     height: 5px;   
 }
-::-webkit-scrollbar-
+::-webkit-scrollbar-track {
+    background: #343541;
+    border-radius: 10px;
+    height: 100%;
+}
+::-
