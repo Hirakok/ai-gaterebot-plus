@@ -13,4 +13,7 @@
     border-radius: 10px;
     height: 100%;
 }
-::-
+::-webkit-scrollbar-thumb {
+    background: #444654;
+    opacity: 1;
+    border-radius
