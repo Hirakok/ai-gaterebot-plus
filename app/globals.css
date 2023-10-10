@@ -16,4 +16,12 @@
 ::-webkit-scrollbar-thumb {
     background: #444654;
     opacity: 1;
-    border-radius
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #747484;
+}
+
+.playpen {
+  
