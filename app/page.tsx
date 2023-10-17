@@ -10,4 +10,5 @@ export default function Home() {
 
     if (session) {
         toast.success(
-          
+            `Welcome ${
+                session?.user?.name ? session?.user?.name : session?.user?
