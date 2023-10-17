@@ -11,4 +11,9 @@ export default function Home() {
     if (session) {
         toast.success(
             `Welcome ${
-                session?.user?.name ? session?.user?.name : session?.user?
+                session?.user?.name ? session?.user?.name : session?.user?.email
+            }!`
+        );
+    }
+
+    // console.log(session?.user);
