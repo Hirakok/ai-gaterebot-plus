@@ -21,4 +21,4 @@ export default function Home() {
 
     return (
         <div
-            cl
+            className="bg-[#050816] h-screen bg-cover bg-center flex justify-center items-cente
