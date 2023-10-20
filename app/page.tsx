@@ -21,4 +21,6 @@ export default function Home() {
 
     return (
         <div
-            className="bg-[#050816] h-screen bg-cover bg-center flex justify-center items-cente
+            className="bg-[#050816] h-screen bg-cover bg-center flex justify-center items-center"
+            style={{
+                backgroundImage: `url('https://res.cl
