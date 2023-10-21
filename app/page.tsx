@@ -23,4 +23,4 @@ export default function Home() {
         <div
             className="bg-[#050816] h-screen bg-cover bg-center flex justify-center items-center"
             style={{
-                backgroundImage: `url('https://res.cl
+                backgroundImage: `url('https://res.cloudinary.com/dvuazircp/image/upload/v1700070833/new_portfolio/
