@@ -26,4 +26,5 @@ export default function Home() {
                 backgroundImage: `url('https://res.cloudinary.com/dvuazircp/image/upload/v1700070833/new_portfolio/herobg_lbcdc4.webp')`,
             }}
         >
-            <Toaster richColors
+            <Toaster richColors position="top-right" closeButton />
+            <section className="flex 
