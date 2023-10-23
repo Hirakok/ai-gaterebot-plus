@@ -27,4 +27,5 @@ export default function Home() {
             }}
         >
             <Toaster richColors position="top-right" closeButton />
-            <section className="flex 
+            <section className="flex flex-col gap-6 justify-center items-center">
+                <h1 className="
