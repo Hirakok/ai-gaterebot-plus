@@ -28,4 +28,6 @@ export default function Home() {
         >
             <Toaster richColors position="top-right" closeButton />
             <section className="flex flex-col gap-6 justify-center items-center">
-                <h1 className="
+                <h1 className=" text-[#ffffff] md:text-5xl text-3xl playpen">
+                    Hello{" "}
+          
