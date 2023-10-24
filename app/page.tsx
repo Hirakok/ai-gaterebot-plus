@@ -30,4 +30,6 @@ export default function Home() {
             <section className="flex flex-col gap-6 justify-center items-center">
                 <h1 className=" text-[#ffffff] md:text-5xl text-3xl playpen">
                     Hello{" "}
-          
+                    {session?.user?.name
+                        ? session?.user?.name
+ 
