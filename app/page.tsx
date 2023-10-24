@@ -32,4 +32,5 @@ export default function Home() {
                     Hello{" "}
                     {session?.user?.name
                         ? session?.user?.name
- 
+                        : session?.user?.email}{" "}
+        
