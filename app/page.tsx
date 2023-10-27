@@ -33,4 +33,6 @@ export default function Home() {
                     {session?.user?.name
                         ? session?.user?.name
                         : session?.user?.email}{" "}
-        
+                </h1>
+                <Image
+                    src={session?.u
