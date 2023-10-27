@@ -35,4 +35,6 @@ export default function Home() {
                         : session?.user?.email}{" "}
                 </h1>
                 <Image
-                    src={session?.u
+                    src={session?.user?.image as string}
+                    priority={true}
+                    widt
