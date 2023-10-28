@@ -37,4 +37,7 @@ export default function Home() {
                 <Image
                     src={session?.user?.image as string}
                     priority={true}
-                    widt
+                    width={100}
+                    height={100}
+                    alt="Profile "
+                
