@@ -40,4 +40,6 @@ export default function Home() {
                     width={100}
                     height={100}
                     alt="Profile "
-                
+                    className="rounded-md"
+                />
+                <
