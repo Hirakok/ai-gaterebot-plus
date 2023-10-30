@@ -42,4 +42,5 @@ export default function Home() {
                     alt="Profile "
                     className="rounded-md"
                 />
-                <
+                <h1 className=" text-[#ffffff] md:text-3xl text-xl playpen">
+            
