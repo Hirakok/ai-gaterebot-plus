@@ -43,4 +43,6 @@ export default function Home() {
                     className="rounded-md"
                 />
                 <h1 className=" text-[#ffffff] md:text-3xl text-xl playpen">
-            
+                    Welcome to gaterebot
+                </h1>
+                {/* Link
