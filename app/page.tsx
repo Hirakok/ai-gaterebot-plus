@@ -45,4 +45,6 @@ export default function Home() {
                 <h1 className=" text-[#ffffff] md:text-3xl text-xl playpen">
                     Welcome to gaterebot
                 </h1>
-                {/* Link
+                {/* Link to chat */}
+                <div className="flex gap-3">
+                    <
