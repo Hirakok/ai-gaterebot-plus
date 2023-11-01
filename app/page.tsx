@@ -47,4 +47,6 @@ export default function Home() {
                 </h1>
                 {/* Link to chat */}
                 <div className="flex gap-3">
-                    <
+                    <Link
+                        href="/chat"
+                        className="bg-[#f
