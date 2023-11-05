@@ -54,4 +54,4 @@ export default function Home() {
                         Continue to Chat
                     </Link>
                     <button
-                        className="bg-[#ffffff] text-[#050816] p-2 md:p-3 rounde
+                        className="bg-[#ffffff] text-[#050816] p-2 md:p-3 rounded-lg hover:bg-[#646464] playpen cursor-pointer transition ease-in-ou
