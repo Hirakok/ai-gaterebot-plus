@@ -56,4 +56,6 @@ export default function Home() {
                     <button
                         className="bg-[#ffffff] text-[#050816] p-2 md:p-3 rounded-lg hover:bg-[#646464] playpen cursor-pointer transition ease-in-out duration-500"
                         onClick={() => signOut()}
-       
+                    >
+                        Sign Out
+                    </but
