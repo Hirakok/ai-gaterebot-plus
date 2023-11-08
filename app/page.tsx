@@ -58,4 +58,9 @@ export default function Home() {
                         onClick={() => signOut()}
                     >
                         Sign Out
-                    </but
+                    </button>
+                </div>
+            </section>
+        </div>
+    );
+}
