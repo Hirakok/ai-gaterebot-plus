@@ -1,1 +1,3 @@
-export 
+export { default } from "next-auth/middleware";
+
+// export const config = {matche
