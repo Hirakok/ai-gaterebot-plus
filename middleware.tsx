@@ -1,3 +1,3 @@
 export { default } from "next-auth/middleware";
 
-// export const config = {matche
+// export const config = {matcher: ["/chat"]}
