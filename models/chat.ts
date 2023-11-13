@@ -7,4 +7,11 @@ const chatSchema = new Schema(
     {
         email: String,
         title: String,
-  
+        messages: Object,
+    },
+    {
+        timestamps: true,
+    }
+);
+
+const Chat = mongoos
