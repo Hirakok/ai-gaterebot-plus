@@ -6,4 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint":
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.27.1",
+    "@uiw/react-markd
