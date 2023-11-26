@@ -22,4 +22,7 @@
     "react-dom": "^18",
     "react-icons": "^4.11.0",
     "react-markdown": "^9.0.0",
-    "react-syntax-highligh
+    "react-syntax-highlighter": "^15.5.0",
+    "react-typed": "^1.2.0",
+    "rehype-highlight": "^7.0.0",
+    "
