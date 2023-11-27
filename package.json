@@ -29,4 +29,7 @@
     "sonner": "^1.2.0",
     "uuid": "^9.0.1"
   },
-  "devDependencies": 
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20",
+    "@types/rea
