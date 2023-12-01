@@ -15,3 +15,82 @@ dependencies:
   ai:
     specifier: ^2.2.23
     version: 2.2.23(react@18.2.0)(solid-js@1.8.5)(svelte@4.2.3)(vue@3.3.8)
+  classnames:
+    specifier: ^2.3.2
+    version: 2.3.2
+  mongodb:
+    specifier: ^6.2.0
+    version: 6.2.0
+  mongoose:
+    specifier: ^8.0.1
+    version: 8.0.1
+  next:
+    specifier: 14.0.2
+    version: 14.0.2(react-dom@18.2.0)(react@18.2.0)
+  next-auth:
+    specifier: ^4.24.5
+    version: 4.24.5(next@14.0.2)(react-dom@18.2.0)(react@18.2.0)
+  openai:
+    specifier: ^4.18.0
+    version: 4.18.0
+  react:
+    specifier: ^18
+    version: 18.2.0
+  react-dom:
+    specifier: ^18
+    version: 18.2.0(react@18.2.0)
+  react-icons:
+    specifier: ^4.11.0
+    version: 4.11.0(react@18.2.0)
+  react-markdown:
+    specifier: ^9.0.0
+    version: 9.0.0(@types/react@18.2.37)(react@18.2.0)
+  react-syntax-highlighter:
+    specifier: ^15.5.0
+    version: 15.5.0(react@18.2.0)
+  react-typed:
+    specifier: ^1.2.0
+    version: 1.2.0(react-dom@18.2.0)(react@18.2.0)
+  rehype-highlight:
+    specifier: ^7.0.0
+    version: 7.0.0
+  remark-gfm:
+    specifier: ^4.0.0
+    version: 4.0.0
+  sonner:
+    specifier: ^1.2.0
+    version: 1.2.0(react-dom@18.2.0)(react@18.2.0)
+  uuid:
+    specifier: ^9.0.1
+    version: 9.0.1
+
+devDependencies:
+  '@tailwindcss/typography':
+    specifier: ^0.5.10
+    version: 0.5.10(tailwindcss@3.3.5)
+  '@types/node':
+    specifier: ^20
+    version: 20.9.0
+  '@types/react':
+    specifier: ^18
+    version: 18.2.37
+  '@types/react-dom':
+    specifier: ^18
+    version: 18.2.15
+  autoprefixer:
+    specifier: ^10.0.1
+    version: 10.4.16(postcss@8.4.31)
+  eslint:
+    specifier: ^8
+    version: 8.53.0
+  eslint-config-next:
+    specifier: 14.0.2
+    version: 14.0.2(eslint@8.53.0)(typescript@5.2.2)
+  postcss:
+    specifier: ^8
+    version: 8.4.31
+  tailwindcss:
+    specifier: ^3.3.0
+    version: 3.3.5
+  typescript:
+    specifier: ^5
