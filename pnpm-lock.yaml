@@ -4299,3 +4299,104 @@ packages:
       react: '>=18'
     dependencies:
       '@types/hast': 3.0.3
+      '@types/react': 18.2.37
+      devlop: 1.1.0
+      hast-util-to-jsx-runtime: 2.2.0
+      html-url-attributes: 3.0.0
+      mdast-util-to-hast: 13.0.2
+      micromark-util-sanitize-uri: 2.0.0
+      react: 18.2.0
+      remark-parse: 11.0.0
+      remark-rehype: 11.0.0
+      unified: 11.0.4
+      unist-util-visit: 5.0.0
+      vfile: 6.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /react-syntax-highlighter@15.5.0(react@18.2.0):
+    resolution: {integrity: sha512-+zq2myprEnQmH5yw6Gqc8lD55QHnpKaU8TOcFeC/Lg/MQSs8UknEA0JC4nTZGFAXC2J2Hyj/ijJ7NlabyPi2gg==}
+    peerDependencies:
+      react: '>= 0.14.0'
+    dependencies:
+      '@babel/runtime': 7.23.2
+      highlight.js: 10.7.3
+      lowlight: 1.20.0
+      prismjs: 1.29.0
+      react: 18.2.0
+      refractor: 3.6.0
+    dev: false
+
+  /react-typed@1.2.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw==}
+    peerDependencies:
+      react: ^16.3.0
+      react-dom: ^16.3.0
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      typed.js: 2.1.0
+    dev: false
+
+  /react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /read-cache@1.0.0:
+    resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
+    dependencies:
+      pify: 2.3.0
+    dev: true
+
+  /readdirp@3.6.0:
+    resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
+    engines: {node: '>=8.10.0'}
+    dependencies:
+      picomatch: 2.3.1
+    dev: true
+
+  /reflect.getprototypeof@1.0.4:
+    resolution: {integrity: sha512-ECkTw8TmJwW60lOTR+ZkODISW6RQ8+2CL3COqtiJKLd6MmB45hN51HprHFziKLGkAuTGQhBb91V8cy+KHlaCjw==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.5
+      define-properties: 1.2.1
+      es-abstract: 1.22.3
+      get-intrinsic: 1.2.2
+      globalthis: 1.0.3
+      which-builtin-type: 1.1.3
+    dev: true
+
+  /refractor@3.6.0:
+    resolution: {integrity: sha512-MY9W41IOWxxk31o+YvFCNyNzdkc9M20NoZK5vq6jkv4I/uh2zkWcfudj0Q1fovjUQJrNewS9NMzeTtqPf+n5EA==}
+    dependencies:
+      hastscript: 6.0.0
+      parse-entities: 2.0.0
+      prismjs: 1.27.0
+    dev: false
+
+  /refractor@4.8.1:
+    resolution: {integrity: sha512-/fk5sI0iTgFYlmVGYVew90AoYnNMP6pooClx/XKqyeeCQXrL0Kvgn8V0VEht5ccdljbzzF1i3Q213gcntkRExg==}
+    dependencies:
+      '@types/hast': 2.3.8
+      '@types/prismjs': 1.26.3
+      hastscript: 7.2.0
+      parse-entities: 4.0.1
+    dev: false
+
+  /regenerator-runtime@0.14.0:
+    resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
+
+  /regexp.prototype.flags@1.5.1:
+    resolution: {integrity: sha512-sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.5
+      define-properties: 1.2.1
+      set-function-name: 2.0.1
+    dev: true
