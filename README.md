@@ -1,1 +1,1 @@
-![GitHub deployments](https://img.shields.io/github/deployments/Hirakok/ai-
+![GitHub deployments](https://img.shields.io/github/deployments/Hirakok/ai-gaterebot-plus/production?style=flat&logo=vercel&logoColor=white&label=verce
