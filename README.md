@@ -1,1 +1,1 @@
-![GitHub deployments](https://img.shields.io/github/deployments/Hirakok/ai-gaterebot-plus/production?style=flat&logo=vercel&logoColor=white&label=verce
+![GitHub deployments](https://img.shields.io/github/deployments/Hirakok/ai-gaterebot-plus/production?style=flat&logo=vercel&logoColor=white&label=vercel)\n\n# AI GatereBot Plus\n\nAI GatereBot Plus harnesses the OpenAI API for real-t
